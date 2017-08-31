@@ -49,6 +49,8 @@ def main(**kwargs):
             ip, cnt = globals()['parse_%s' % source]()
         except Exception as ex:
             logging.error('Failed to parse %s source: %s' % (source, ex))
+        else:
+            break
     if ip is None:
         logging.error('Fatal error: all sources failed')
         sys.exit(1)
