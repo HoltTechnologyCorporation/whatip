@@ -13,7 +13,7 @@ try:
 except ImportError:
     from queue import Queue, Empty
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 SOURCES = ['ipapi', 'formyip']
 
 
