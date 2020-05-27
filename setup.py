@@ -14,8 +14,9 @@ setup(
     maintainer="Gregory Petukhov",
     maintainer_email='lorien@lorien.name',
     url='https://github.com/lorien/whatip',
-    description='Console script to find your IP',
-    long_description=open(os.path.join(ROOT, 'README.rst')).read(),
+    description='Console script to find your external IP address',
+    long_description=open(os.path.join(ROOT, 'README.md')).read(),
+    long_description_content_type='text/markdown',
     download_url='http://pypi.python.org/pypi/whatip',
     keywords="ip internet",
     license="MIT License",
@@ -30,14 +31,11 @@ setup(
     # Topics
     classifiers=[
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'License :: OSI Approved :: MIT License',
-        #'Development Status :: 5 - Production/Stable',
+        'Development Status :: 5 - Production/Stable',
         'Operating System :: OS Independent',
     ],
 )
