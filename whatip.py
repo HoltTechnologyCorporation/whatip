@@ -9,7 +9,7 @@ from threading import Thread
 from urllib.request import urlopen
 from urllib.error import HTTPError
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 SOURCES = ['ipapi', 'formyip']
 
 
