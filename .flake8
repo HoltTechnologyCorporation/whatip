@@ -1,0 +1,3 @@
+[flake8]
+# E265 block comment should start with '# '
+ignore=E265
